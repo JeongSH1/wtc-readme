@@ -29,7 +29,7 @@ README 텍스트를 기반으로 **단어 등장 빈도를 분석하는 CLI 도�
 npx wtc-readme
 ```
 
-### 🔐 GitHub API 토큰 설정하기 (권장)
+### 🔐 GitHub API 토큰 설정하기 (필수)
 
 비로그인 상태는 GitHub API 제한(60 req/hour)이 있어
 특히 PR·README가 많은 저장소 분석 시 오류가 발생할 수 있습니다.
