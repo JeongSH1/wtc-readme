@@ -1,5 +1,5 @@
 {
-  "name": "@uroi/wtc-readme",
+  "name": "wtc-readme",
   "version": "1.0.0",
   "description": "WoowaCourse Precourse PR README Analyzer",
   "main": "src/analyze-readmes.js",

@@ -209,7 +209,7 @@ async function main() {
 
   const api = createGithubClient(token);
 
-  console.log(chalk.blueBright("\n⏳ PR 목록 불러오는 중..."));
+  console.log(chalk.blueBright("\n⏳ PR 목록 불러오는 중... (30초 정도 소요됩니다.)"));
 
   const prs = await fetchAllPRs(api, owner, repo);
   console.log(
