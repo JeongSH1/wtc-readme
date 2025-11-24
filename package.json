@@ -1,0 +1,16 @@
+{
+  "name": "@uroi/wtc-readme",
+  "version": "1.0.0",
+  "description": "WoowaCourse Precourse PR README Analyzer",
+  "main": "src/analyze-readmes.js",
+  "bin": {
+    "wtcreadme": "bin/cli.js"
+  },
+  "type": "commonjs",
+  "author": "JeongSH1",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "chalk": "^4.1.2"
+  }
+}
